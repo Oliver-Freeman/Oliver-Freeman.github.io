@@ -3,8 +3,7 @@
   <entry>
     <title>Tips for the first time deplying hexo to Github Pages</title>
     <url>/posts/b2c81ab8/</url>
-    <content><![CDATA[<p>俗话说，万事开头难。从软件安装到部署成功第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。因为网上有许多教程，具体安装的过程不再赘述，搜索时需要注意帖子的日期，有的可能太久远的话，就不适用了。</p>
-<p>在此，我只记录一下我在整个过程中遇到的几个关键问题。</p>
+    <content><![CDATA[<p>俗话说，万事开头难。从软件安装到部署成功第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。<span id="more"></span>因为网上有许多教程，具体安装的过程不再赘述，搜索时需要注意帖子的日期，有的可能太久远的话，就不适用了。</p>
 <ul>
 <li><p>GitHub账号的username和用于部署blog的repository的name需要保持一致，比如GitHub的username是<em><strong>Big-Elephant</strong></em>，那么用于部署的repository的name需要是<em><strong>Big-Elephant</strong></em><em>.github.io</em>，否则可能不能成功识别。</p>
 </li>
