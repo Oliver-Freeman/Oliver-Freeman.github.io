@@ -1,29 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Basic Tools</title>
+    <url>/posts/e3c9e207/</url>
+    <content><![CDATA[<p>作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新环境，发现了许多和以前基本上通用的工具，在此记录下来。</p>
+<p>环境： Win 10</p>
+<span id="more"></span>
+<h3 id="常用软件推荐">常用软件推荐</h3>
+<h4 id="截图">截图</h4>
+<h5 id="Snipaste"><a href="https://www.snipaste.com/download.html">Snipaste</a></h5>
+<p>推荐指数：★★★★★</p>
+<p>软件名全程是<strong>Snip &amp; Paste</strong>，体验比Window 10自带的截图软件体验好，类似QQ那种或者微信聊天窗口中使用的截图工具。优点包括：</p>
+<ul>
+<li>
+<p>无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+</li>
+<li>
+<p>局部截图，手动选择截图大小</p>
+</li>
+<li>
+<p>截图能够被Pin在桌面上，方便信息保留和查看</p>
+</li>
+<li>
+<p>自定义截图、pin的快捷键</p>
+</li>
+</ul>
+<h4 id="视频播放">视频播放</h4>
+<h5 id="PotPlayer"><a href="https://www.videohelp.com/software?d=PotPlayerPortable64-220914.zip">PotPlayer</a></h5>
+<p>推荐指数：★★★★★</p>
+<p>超链接中的解压包包含了安装包，可以删除。执行文件位于路径为 <code>PotPlayerPortable64\App\PotPlayer64\PotPlayer64.exe</code></p>
+<p>使用体验比Window 10自带的播放软件体验好。优点包括：</p>
+<ul>
+<li>
+<p>无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+</li>
+<li>
+<p>能够通过快捷键逐级切换播放速度，比如<strong>倍速</strong>或者<strong>减速</strong>(对应快捷键分别为<strong>C</strong>和<strong>X</strong>)。</p>
+</li>
+<li>
+<p>和自带默认播放器相比，更加稳定，不会突然闪退。</p>
+</li>
+</ul>
+<h4 id="文本编辑软件">文本编辑软件</h4>
+<h5 id="UltraEdit-付费">UltraEdit (付费)</h5>
+<p>推荐指数：★★★★</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>UltraEdit</strong>。如果没有，那么可以查询教程自行安装。</p>
+<p>优点是文本文件都能打开查看、编辑，用起来顺手。</p>
+<h5 id="Visual-Studio-Code">Visual Studio Code</h5>
+<p>推荐指数：★★★</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>Visual Studio Code</strong>。如果没有，请尝试直接下载<a href="https://code.visualstudio.com/download"><strong>VS Code</strong></a>安装。</p>
+<h4 id="远程登录服务器客户端">远程登录服务器客户端</h4>
+<h5 id="PuTTY">PuTTY</h5>
+<p>推荐指数：★★★★★</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>PuTTY</strong>。如果没有，请尝试直接下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"><strong>Putty</strong></a>安装。</p>
+<h4 id="图形化SFTP客户端">图形化SFTP客户端</h4>
+<h5 id="WinSCP">WinSCP</h5>
+<p>推荐指数：★★★★</p>
+<p>它的主要功能是在本地与服务器间安全地复制文件，并且可以直接编辑文件。优点是能和本地一样，在服务器文件夹窗口使用和本地默认程序打开文件，缺点是如果访问了包含有<strong>软link文件</strong>(类似Windows的快捷方式)的文件夹，那么访问速度会大幅下降，类似卡死，需要耐心等待，此时窗口上会提示读取文件进度。总体体验感觉比<strong>FileZilla</strong>好一点。</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>WinSCP</strong>。如果没有，请尝试直接下载<a href="https://winscp.net/eng/download.php"><strong>WinSCP</strong></a>安装。</p>
+<h4 id="SAS数据集查看">SAS数据集查看</h4>
+<h5 id="DsView"><a href="https://www.oview.co.uk/cgi-bin/download.pl?url=dsview/dsview-0.6.zip">DsView</a></h5>
+<p>推荐指数：★★★</p>
+<p>打开以<strong>sas7bdat</strong>结尾后缀的文件，和<strong>SAS Universal Viewer</strong>相比，优点是打开速度快，可以执行简单的筛选。缺点也很突出，可能出现闪退。</p>
+<p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+<h4 id="资源管理器">资源管理器</h4>
+<h5 id="Q-Dir"><a href="https://www.softwareok.com/?Download=Q-Dir&amp;goto=../Download/Q-Dir_Portable.zip">Q-Dir</a></h5>
+<p>推荐指数：★★★</p>
+<p>Q-Dir 是一款非常独特的资源管理器， Q-Dir特别适用于频繁在各个目录间跳跃复制粘贴的情况。 因为Q-Dir有4 个窗口。 每个窗口都可以方便的切换目录，以不同颜色区分不同类型的文件，各窗口之间可以方便的拖放操作互相的文件。</p>
+<p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+        <category>Software</category>
+      </categories>
+      <tags>
+        <tag>Basic Tools</tag>
+        <tag>Win10</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Tips for the first time deplying hexo to Github Pages</title>
     <url>/posts/b2c81ab8/</url>
     <content><![CDATA[<p>俗话说，万事开头难。从软件安装到部署成功，再到发表第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。<span id="more"></span>因为网上有许多教程，具体安装的过程不再赘述，搜索时需要注意帖子的日期，有的可能太久远的话，就不适用了。</p>
 <ul>
-<li><p>GitHub账号的username和用于部署blog的repository的name需要保持一致，比如GitHub的username是<em><strong>Big-Elephant</strong></em>，那么用于部署的repository的name需要是<em><strong>Big-Elephant</strong></em><em>.github.io</em>，否则可能不能成功识别。</p>
+<li>
+<p>GitHub账号的username和用于部署blog的repository的name需要保持一致，比如GitHub的username是<em><strong>Big-Elephant</strong></em>，那么用于部署的repository的name需要是<em><strong>Big-Elephant</strong></em>*.github.io*，否则可能不能成功识别。</p>
 </li>
-<li><p>在使用window 10的PowerShell中执行hexo命令时，如果报错并提示“无法加载文件 ..\npm\hexo.ps1”时，则需要到系统设置中修改执行策略。具体为进入设置，搜索&quot;PowerShell&quot;，选择&quot;PowerShell开发人员设置&quot;，勾选页面最下方&quot;PowerShell 应用以下设置以执行PowerShell脚本&quot;，并且点击应用按钮。</p>
+<li>
+<p>在使用window 10的PowerShell中执行hexo命令时，如果报错并提示“无法加载文件 …\npm\hexo.ps1”时，则需要到系统设置中修改执行策略。具体为进入设置，搜索&quot;PowerShell&quot;，选择&quot;PowerShell开发人员设置&quot;，勾选页面最下方&quot;PowerShell 应用以下设置以执行PowerShell脚本&quot;，并且点击应用按钮。</p>
 </li>
-<li><p>当第一次执行<strong>hex init blog</strong>并且使用<strong>cd blog</strong>后再进行后续操作。这是因为先初始化一个文件夹blog，然后再进入到文件夹blog中执行后续操作。</p>
+<li>
+<p>当第一次执行<strong>hex init blog</strong>并且使用<strong>cd blog</strong>后再进行后续操作。这是因为先初始化一个文件夹blog，然后再进入到文件夹blog中执行后续操作。</p>
 </li>
-<li><p>准备好部署的时候，Best Practice是按照顺序执行执行三组命令。</p>
+<li>
+<p>准备好部署的时候，Best Practice是按照顺序执行执行三组命令。</p>
   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy (or hexo server)</span><br></pre></td></tr></table></figure>
-
-<p>  也可以一步到位</p>
+<p>也可以一步到位</p>
   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
 </li>
-<li><p>在使用Typora时，需要留意半角和全角的使用，否则可能Typora的显示和Hexo上显示出来不一定相同。</p>
+<li>
+<p>在使用Typora时，需要留意半角和全角的使用，否则可能Typora的显示和Hexo上显示出来不一定相同。</p>
 </li>
-<li><p>如果绑定域名的话，记得文件CNAME放到source下面，否则每次部署都会被删除。</p>
+<li>
+<p>如果绑定域名的话，记得文件CNAME放到source下面，否则每次部署都会被删除。</p>
 </li>
-<li><p>如果挂了代理，在提交的时候可能提示超时或者连接失败，那么需要输入命令行</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure></li>
+<li>
+<p>如果挂了代理，在提交的时候可能提示超时或者连接失败，那么需要输入命令行</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 ]]></content>
       <categories>

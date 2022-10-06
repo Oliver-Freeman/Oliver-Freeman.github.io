@@ -22,29 +22,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"default"},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="俗话说，万事开头难。从软件安装到部署成功，再到发表第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。">
+    <meta name="description" content="作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新环境，发现了许多和以前基本上通用的工具，在此记录下来。 环境： Win 10">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Tips for the first time deplying hexo to Github Pages">
-<meta property="og:url" content="http://example.com/posts/b2c81ab8/index.html">
+<meta property="og:title" content="Basic Tools">
+<meta property="og:url" content="http://example.com/posts/e3c9e207/index.html">
 <meta property="og:site_name" content="Oliver&#39;s Blog">
-<meta property="og:description" content="俗话说，万事开头难。从软件安装到部署成功，再到发表第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。">
+<meta property="og:description" content="作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新环境，发现了许多和以前基本上通用的工具，在此记录下来。 环境： Win 10">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-27T12:37:42.000Z">
-<meta property="article:modified_time" content="2022-09-28T15:48:04.687Z">
+<meta property="article:published_time" content="2022-10-01T07:47:35.000Z">
+<meta property="article:modified_time" content="2022-10-06T06:03:26.695Z">
 <meta property="article:author" content="Oliver">
-<meta property="article:tag" content="GitHub">
-<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Basic Tools">
+<meta property="article:tag" content="Win10">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/posts/b2c81ab8/">
+<link rel="canonical" href="http://example.com/posts/e3c9e207/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/posts/b2c81ab8/","path":"posts/b2c81ab8/","title":"Tips for the first time deplying hexo to Github Pages"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/posts/e3c9e207/","path":"posts/e3c9e207/","title":"Basic Tools"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Tips for the first time deplying hexo to Github Pages | Oliver's Blog</title>
+<title>Basic Tools | Oliver's Blog</title>
   
 
 
@@ -134,7 +134,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -147,6 +147,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90"><span class="nav-number">1.</span> <span class="nav-text">常用软件推荐</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%88%AA%E5%9B%BE"><span class="nav-number">1.1.</span> <span class="nav-text">截图</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Snipaste"><span class="nav-number">1.1.1.</span> <span class="nav-text">Snipaste</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE"><span class="nav-number">1.2.</span> <span class="nav-text">视频播放</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#PotPlayer"><span class="nav-number">1.2.1.</span> <span class="nav-text">PotPlayer</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6"><span class="nav-number">1.3.</span> <span class="nav-text">文本编辑软件</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#UltraEdit-%E4%BB%98%E8%B4%B9"><span class="nav-number">1.3.1.</span> <span class="nav-text">UltraEdit (付费)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Visual-Studio-Code"><span class="nav-number">1.3.2.</span> <span class="nav-text">Visual Studio Code</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="nav-number">1.4.</span> <span class="nav-text">远程登录服务器客户端</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#PuTTY"><span class="nav-number">1.4.1.</span> <span class="nav-text">PuTTY</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%BE%E5%BD%A2%E5%8C%96SFTP%E5%AE%A2%E6%88%B7%E7%AB%AF"><span class="nav-number">1.5.</span> <span class="nav-text">图形化SFTP客户端</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#WinSCP"><span class="nav-number">1.5.1.</span> <span class="nav-text">WinSCP</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#SAS%E6%95%B0%E6%8D%AE%E9%9B%86%E6%9F%A5%E7%9C%8B"><span class="nav-number">1.6.</span> <span class="nav-text">SAS数据集查看</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#DsView"><span class="nav-number">1.6.1.</span> <span class="nav-text">DsView</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8"><span class="nav-number">1.7.</span> <span class="nav-text">资源管理器</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Q-Dir"><span class="nav-number">1.7.1.</span> <span class="nav-text">Q-Dir</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -212,7 +213,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/posts/b2c81ab8/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/posts/e3c9e207/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/profile/profile2_final.png">
@@ -225,12 +226,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Tips for the first time deplying hexo to Github Pages | Oliver's Blog">
+      <meta itemprop="name" content="Basic Tools | Oliver's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Tips for the first time deplying hexo to Github Pages
+          Basic Tools
         </h1>
 
         <div class="post-meta-container">
@@ -241,14 +242,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2022-09-27 20:37:42" itemprop="dateCreated datePublished" datetime="2022-09-27T20:37:42+08:00">2022-09-27</time>
+      <time title="创建时间：2022-10-01 15:47:35" itemprop="dateCreated datePublished" datetime="2022-10-01T15:47:35+08:00">2022-10-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-09-28 23:48:04" itemprop="dateModified" datetime="2022-09-28T23:48:04+08:00">2022-09-28</time>
+      <time title="修改时间：2022-10-06 14:03:26" itemprop="dateModified" datetime="2022-10-06T14:03:26+08:00">2022-10-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -257,6 +258,10 @@
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
           <a href="/categories/Tools/" itemprop="url" rel="index"><span itemprop="name">Tools</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Tools/Software/" itemprop="url" rel="index"><span itemprop="name">Software</span></a>
         </span>
     </span>
 
@@ -267,7 +272,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>883</span>
+      <span>1.4k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -285,34 +290,71 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>俗话说，万事开头难。从软件安装到部署成功，再到发表第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。<span id="more"></span>因为网上有许多教程，具体安装的过程不再赘述，搜索时需要注意帖子的日期，有的可能太久远的话，就不适用了。</p>
+        <p>作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新环境，发现了许多和以前基本上通用的工具，在此记录下来。</p>
+<p>环境： Win 10</p>
+<span id="more"></span>
+<h3 id="常用软件推荐">常用软件推荐</h3>
+<h4 id="截图">截图</h4>
+<h5 id="Snipaste"><a target="_blank" rel="noopener" href="https://www.snipaste.com/download.html">Snipaste</a></h5>
+<p>推荐指数：★★★★★</p>
+<p>软件名全程是<strong>Snip &amp; Paste</strong>，体验比Window 10自带的截图软件体验好，类似QQ那种或者微信聊天窗口中使用的截图工具。优点包括：</p>
 <ul>
 <li>
-<p>GitHub账号的username和用于部署blog的repository的name需要保持一致，比如GitHub的username是<em><strong>Big-Elephant</strong></em>，那么用于部署的repository的name需要是<em><strong>Big-Elephant</strong></em>*.github.io*，否则可能不能成功识别。</p>
+<p>无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
 </li>
 <li>
-<p>在使用window 10的PowerShell中执行hexo命令时，如果报错并提示“无法加载文件 …\npm\hexo.ps1”时，则需要到系统设置中修改执行策略。具体为进入设置，搜索&quot;PowerShell&quot;，选择&quot;PowerShell开发人员设置&quot;，勾选页面最下方&quot;PowerShell 应用以下设置以执行PowerShell脚本&quot;，并且点击应用按钮。</p>
+<p>局部截图，手动选择截图大小</p>
 </li>
 <li>
-<p>当第一次执行<strong>hex init blog</strong>并且使用<strong>cd blog</strong>后再进行后续操作。这是因为先初始化一个文件夹blog，然后再进入到文件夹blog中执行后续操作。</p>
+<p>截图能够被Pin在桌面上，方便信息保留和查看</p>
 </li>
 <li>
-<p>准备好部署的时候，Best Practice是按照顺序执行执行三组命令。</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy (or hexo server)</span><br></pre></td></tr></table></figure>
-<p>也可以一步到位</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>在使用Typora时，需要留意半角和全角的使用，否则可能Typora的显示和Hexo上显示出来不一定相同。</p>
-</li>
-<li>
-<p>如果绑定域名的话，记得文件CNAME放到source下面，否则每次部署都会被删除。</p>
-</li>
-<li>
-<p>如果挂了代理，在提交的时候可能提示超时或者连接失败，那么需要输入命令行</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure>
+<p>自定义截图、pin的快捷键</p>
 </li>
 </ul>
+<h4 id="视频播放">视频播放</h4>
+<h5 id="PotPlayer"><a target="_blank" rel="noopener" href="https://www.videohelp.com/software?d=PotPlayerPortable64-220914.zip">PotPlayer</a></h5>
+<p>推荐指数：★★★★★</p>
+<p>超链接中的解压包包含了安装包，可以删除。执行文件位于路径为 <code>PotPlayerPortable64\App\PotPlayer64\PotPlayer64.exe</code></p>
+<p>使用体验比Window 10自带的播放软件体验好。优点包括：</p>
+<ul>
+<li>
+<p>无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+</li>
+<li>
+<p>能够通过快捷键逐级切换播放速度，比如<strong>倍速</strong>或者<strong>减速</strong>(对应快捷键分别为<strong>C</strong>和<strong>X</strong>)。</p>
+</li>
+<li>
+<p>和自带默认播放器相比，更加稳定，不会突然闪退。</p>
+</li>
+</ul>
+<h4 id="文本编辑软件">文本编辑软件</h4>
+<h5 id="UltraEdit-付费">UltraEdit (付费)</h5>
+<p>推荐指数：★★★★</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>UltraEdit</strong>。如果没有，那么可以查询教程自行安装。</p>
+<p>优点是文本文件都能打开查看、编辑，用起来顺手。</p>
+<h5 id="Visual-Studio-Code">Visual Studio Code</h5>
+<p>推荐指数：★★★</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>Visual Studio Code</strong>。如果没有，请尝试直接下载<a target="_blank" rel="noopener" href="https://code.visualstudio.com/download"><strong>VS Code</strong></a>安装。</p>
+<h4 id="远程登录服务器客户端">远程登录服务器客户端</h4>
+<h5 id="PuTTY">PuTTY</h5>
+<p>推荐指数：★★★★★</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>PuTTY</strong>。如果没有，请尝试直接下载<a target="_blank" rel="noopener" href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"><strong>Putty</strong></a>安装。</p>
+<h4 id="图形化SFTP客户端">图形化SFTP客户端</h4>
+<h5 id="WinSCP">WinSCP</h5>
+<p>推荐指数：★★★★</p>
+<p>它的主要功能是在本地与服务器间安全地复制文件，并且可以直接编辑文件。优点是能和本地一样，在服务器文件夹窗口使用和本地默认程序打开文件，缺点是如果访问了包含有<strong>软link文件</strong>(类似Windows的快捷方式)的文件夹，那么访问速度会大幅下降，类似卡死，需要耐心等待，此时窗口上会提示读取文件进度。总体体验感觉比<strong>FileZilla</strong>好一点。</p>
+<p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>WinSCP</strong>。如果没有，请尝试直接下载<a target="_blank" rel="noopener" href="https://winscp.net/eng/download.php"><strong>WinSCP</strong></a>安装。</p>
+<h4 id="SAS数据集查看">SAS数据集查看</h4>
+<h5 id="DsView"><a target="_blank" rel="noopener" href="https://www.oview.co.uk/cgi-bin/download.pl?url=dsview/dsview-0.6.zip">DsView</a></h5>
+<p>推荐指数：★★★</p>
+<p>打开以<strong>sas7bdat</strong>结尾后缀的文件，和<strong>SAS Universal Viewer</strong>相比，优点是打开速度快，可以执行简单的筛选。缺点也很突出，可能出现闪退。</p>
+<p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+<h4 id="资源管理器">资源管理器</h4>
+<h5 id="Q-Dir"><a target="_blank" rel="noopener" href="https://www.softwareok.com/?Download=Q-Dir&amp;goto=../Download/Q-Dir_Portable.zip">Q-Dir</a></h5>
+<p>推荐指数：★★★</p>
+<p>Q-Dir 是一款非常独特的资源管理器， Q-Dir特别适用于频繁在各个目录间跳跃复制粘贴的情况。 因为Q-Dir有4 个窗口。 每个窗口都可以方便的切换目录，以不同颜色区分不同类型的文件，各窗口之间可以方便的拖放操作互相的文件。</p>
+<p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
 
     </div>
 
@@ -324,19 +366,19 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/GitHub/" rel="tag"># GitHub</a>
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/Basic-Tools/" rel="tag"># Basic Tools</a>
+              <a href="/tags/Win10/" rel="tag"># Win10</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/posts/b2c81ab8/" rel="prev" title="Tips for the first time deplying hexo to Github Pages">
+                  <i class="fa fa-chevron-left"></i> Tips for the first time deplying hexo to Github Pages
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/posts/e3c9e207/" rel="next" title="Basic Tools">
-                  Basic Tools <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
