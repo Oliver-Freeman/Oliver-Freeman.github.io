@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Tips for the first time deplying hexo to Github Pages</title>
-    <url>/posts/b2c81ab8/</url>
-    <content><![CDATA[<p>俗话说，万事开头难。从软件安装到部署成功，再到发表第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。<span id="more"></span>因为网上有许多教程，具体安装的过程不再赘述，搜索时需要注意帖子的日期，有的可能太久远的话，就不适用了。</p>
-<ul>
-<li>
-<p>GitHub账号的username和用于部署blog的repository的name需要保持一致，比如GitHub的username是<em><strong>Big-Elephant</strong></em>，那么用于部署的repository的name需要是<em><strong>Big-Elephant</strong></em>*.github.io*，否则可能不能成功识别。</p>
-</li>
-<li>
-<p>在使用window 10的PowerShell中执行hexo命令时，如果报错并提示“无法加载文件 …\npm\hexo.ps1”时，则需要到系统设置中修改执行策略。具体为进入设置，搜索&quot;PowerShell&quot;，选择&quot;PowerShell开发人员设置&quot;，勾选页面最下方&quot;PowerShell 应用以下设置以执行PowerShell脚本&quot;，并且点击应用按钮。</p>
-</li>
-<li>
-<p>当第一次执行<strong>hex init blog</strong>并且使用<strong>cd blog</strong>后再进行后续操作。这是因为先初始化一个文件夹blog，然后再进入到文件夹blog中执行后续操作。</p>
-</li>
-<li>
-<p>准备好部署的时候，Best Practice是按照顺序执行执行三组命令。</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy (or hexo server)</span><br></pre></td></tr></table></figure>
-<p>也可以一步到位</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>在使用Typora时，需要留意半角和全角的使用，否则可能Typora的显示和Hexo上显示出来不一定相同。</p>
-</li>
-<li>
-<p>如果绑定域名的话，记得文件CNAME放到source下面，否则每次部署都会被删除。</p>
-</li>
-<li>
-<p>如果挂了代理，在提交的时候可能提示超时或者连接失败，那么需要输入命令行</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Tools</category>
-      </categories>
-      <tags>
-        <tag>GitHub</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Basic Tools</title>
     <url>/posts/e3c9e207/</url>
     <content><![CDATA[<p>作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新环境，发现了许多和以前基本上通用的工具，在此记录下来。</p>
@@ -116,6 +76,46 @@
       <tags>
         <tag>Basic Tools</tag>
         <tag>Win10</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tips for the first time deplying hexo to Github Pages</title>
+    <url>/posts/b2c81ab8/</url>
+    <content><![CDATA[<p>俗话说，万事开头难。从软件安装到部署成功，再到发表第一篇draft过程中遇到了不少的坑，昨天折腾太晚，导致今天白天精神不佳。在此，我只记录一下我在整个过程中遇到的几个关键问题。<span id="more"></span>因为网上有许多教程，具体安装的过程不再赘述，搜索时需要注意帖子的日期，有的可能太久远的话，就不适用了。</p>
+<ul>
+<li>
+<p>GitHub账号的username和用于部署blog的repository的name需要保持一致，比如GitHub的username是<em><strong>Big-Elephant</strong></em>，那么用于部署的repository的name需要是<em><strong>Big-Elephant</strong></em>*.github.io*，否则可能不能成功识别。</p>
+</li>
+<li>
+<p>在使用window 10的PowerShell中执行hexo命令时，如果报错并提示“无法加载文件 …\npm\hexo.ps1”时，则需要到系统设置中修改执行策略。具体为进入设置，搜索&quot;PowerShell&quot;，选择&quot;PowerShell开发人员设置&quot;，勾选页面最下方&quot;PowerShell 应用以下设置以执行PowerShell脚本&quot;，并且点击应用按钮。</p>
+</li>
+<li>
+<p>当第一次执行<strong>hex init blog</strong>并且使用<strong>cd blog</strong>后再进行后续操作。这是因为先初始化一个文件夹blog，然后再进入到文件夹blog中执行后续操作。</p>
+</li>
+<li>
+<p>准备好部署的时候，Best Practice是按照顺序执行执行三组命令。</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy (or hexo server)</span><br></pre></td></tr></table></figure>
+<p>也可以一步到位</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>在使用Typora时，需要留意半角和全角的使用，否则可能Typora的显示和Hexo上显示出来不一定相同。</p>
+</li>
+<li>
+<p>如果绑定域名的话，记得文件CNAME放到source下面，否则每次部署都会被删除。</p>
+</li>
+<li>
+<p>如果挂了代理，在提交的时候可能提示超时或者连接失败，那么需要输入命令行</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
