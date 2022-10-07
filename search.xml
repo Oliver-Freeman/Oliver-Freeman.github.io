@@ -119,10 +119,9 @@
       </tags>
   </entry>
   <entry>
-    <title>ReadOnly(只读)方式打开EXCEL文件</title>
+    <title>Microsoft Excel设置只读方式(ReadOnly)打开文件</title>
     <url>/posts/928b8ca0/</url>
-    <content><![CDATA[<h4 id="Microsoft-Excel设置只读方式-ReadOnly-打开文件">Microsoft Excel设置只读方式(ReadOnly)打开文件</h4>
-<p>如果有需要以只读的方式打开EXCEL文件，可以尝试以下两种方法。方法1和方法2各有优劣，其中方法1没有风险，而且也没有权限要求。方法2有一定风险且需要较高的权限。</p>
+    <content><![CDATA[<p>如果有需要以只读的方式打开EXCEL文件，可以尝试以下两种方法。方法1和方法2各有优劣，其中方法1没有风险，而且也没有权限要求。方法2有一定风险且需要较高的权限。</p>
 <span id="more"></span>
 <h5 id="方法1：使用右键SendTo发送到ReadOnly的EXCEL执行程序">方法1：使用右键SendTo发送到ReadOnly的EXCEL执行程序</h5>
 <ol>
