@@ -153,7 +153,7 @@
 <img src="/posts/928b8ca0/TT_EXCEL/01.jpg" style="zoom:80%;"></li>
 <li>在运行窗口中输入<code>regedit</code>,然后确定。 <img src="/posts/928b8ca0/928b8ca0/02.png" class>
 </li>
-<li>点击左侧文件夹，定位到<code>计算机\HKEY_CLASSES_ROOT\*\shell</code>，新建项<code>ExcelReadOnly</code>&lt;img src=“tatexcel/TT_EXCEL/2_01.png” &quot; style=“zoom:80%;” /&gt;</li>
+<li>点击左侧文件夹，定位到<code>计算机\HKEY_CLASSES_ROOT\*\shell</code>，新建项<code>ExcelReadOnly</code> <img src="/posts/928b8ca0/TT_EXCEL/2_01.png" style="zoom:80%;"></li>
 <li>在<code>计算机\HKEY_CLASSES_ROOT\*\shell\ExcelReadOnly</code>下新建字符串，命名为<code>icon</code>，并且赋值为<strong>EXCEL.exe</strong>实际运行路径，例如<code>&quot;C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE&quot;</code>。<img src="/posts/928b8ca0/TT_EXCEL/2_02.png" alt="2_02" style="zoom:80%;"><img src="/posts/928b8ca0/TT_EXCEL/2_03.png" style="zoom:80%;"></li>
 <li>在<code>ExcelReadOnly</code>下新建项，命名为<code>command</code>文件夹，修改<code>command</code>下的字符串的值，使用步骤4中的<strong>EXCEL.exe</strong>的路径，并且加上 <code> /r &quot;%1&quot;</code>，例如<code>&quot;C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE /r &quot;%1&quot;</code><img src="/posts/928b8ca0/928b8ca0/2_04.png" class><img src="/posts/928b8ca0/TT_EXCEL/2_05.png" style="zoom:80%;"></li>
 <li>桌面上新建一个EXCEL文件，点击右键查看发送到是否有EXCEL图标的ReadOnly，发送到ReadOnly后查看最上面的状态栏是否真实显示文件为只读状态。<br>
