@@ -28,7 +28,7 @@
 </li>
 <li>
 <p>如果挂了代理，在提交的时候可能提示超时或者连接失败，那么需要输入命令行</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br></pre></td></tr></table></figure>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy</span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 ]]></content>
