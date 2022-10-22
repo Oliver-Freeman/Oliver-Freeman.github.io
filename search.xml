@@ -49,7 +49,7 @@
 <span id="more"></span>
 <h3 id="常用软件推荐">常用软件推荐</h3>
 <h4 id="1-截图">1. 截图</h4>
-<h5 id="1-1-Snipaste"><a href="https://www.snipaste.com/download.html">1.1 Snipaste</a></h5>
+<h5 id="1-1-Snipaste">1.1<a href="https://www.snipaste.com/download.html"> Snipaste</a></h5>
 <p>推荐指数：★★★★★</p>
 <p>软件名全程是<strong>Snip &amp; Paste</strong>，体验比Window 10自带的截图软件体验好，类似QQ那种或者微信聊天窗口中使用的截图工具。优点包括：</p>
 <ul>
@@ -67,7 +67,7 @@
 </li>
 </ul>
 <h4 id="2-视频播放">2. 视频播放</h4>
-<h5 id="2-1-PotPlayer"><a href="https://www.videohelp.com/software?d=PotPlayerPortable64-220914.zip">2.1 PotPlayer</a></h5>
+<h5 id="2-1-PotPlayer">2.1<a href="https://www.videohelp.com/software?d=PotPlayerPortable64-220914.zip"> PotPlayer</a></h5>
 <p>推荐指数：★★★★★</p>
 <p>超链接中的解压包包含了安装包，可以删除。执行文件位于路径为 <code>PotPlayerPortable64\App\PotPlayer64\PotPlayer64.exe</code></p>
 <p>使用体验比Window 10自带的播放软件体验好。优点包括：</p>
@@ -100,20 +100,25 @@
 <p>它的主要功能是在本地与服务器间安全地复制文件，并且可以直接编辑文件。优点是能和本地一样，在服务器文件夹窗口使用和本地默认程序打开文件，缺点是如果访问了包含有<strong>软link文件</strong>(类似Windows的快捷方式)的文件夹，那么访问速度会大幅下降，类似卡死，需要耐心等待，此时窗口上会提示读取文件进度。总体体验感觉比<strong>FileZilla</strong>好一点。</p>
 <p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>WinSCP</strong>。如果没有，请尝试直接下载<a href="https://winscp.net/eng/download.php"><strong>WinSCP</strong></a>安装。</p>
 <h4 id="6-SAS数据集查看">6. SAS数据集查看</h4>
-<h5 id="6-1-DsView"><a href="https://www.oview.co.uk/cgi-bin/download.pl?url=dsview/dsview-0.6.zip">6.1 DsView</a></h5>
+<h5 id="6-1-DsView">6.1<a href="https://www.oview.co.uk/cgi-bin/download.pl?url=dsview/dsview-0.6.zip"> DsView</a></h5>
 <p>推荐指数：★★★</p>
 <p>打开以<strong>sas7bdat</strong>结尾后缀的文件，和<strong>SAS Universal Viewer</strong>相比，优点是打开速度快，可以执行简单的筛选。缺点也很突出，可能出现闪退。</p>
 <p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
 <h4 id="7-资源管理器">7. 资源管理器</h4>
-<h5 id="7-1-Q-Dir"><a href="https://www.softwareok.com/?Download=Q-Dir&amp;goto=../Download/Q-Dir_Portable.zip">7.1 Q-Dir</a></h5>
+<h5 id="7-1-Q-Dir">7.1<a href="https://www.softwareok.com/?Download=Q-Dir&amp;goto=../Download/Q-Dir_Portable.zip"> Q-Dir</a></h5>
 <p>推荐指数：★★★</p>
 <p>Q-Dir 是一款非常独特的资源管理器， Q-Dir特别适用于频繁在各个目录间跳跃复制粘贴的情况。 因为Q-Dir有4 个窗口。 每个窗口都可以方便的切换目录，以不同颜色区分不同类型的文件，各窗口之间可以方便的拖放操作互相的文件。</p>
 <p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
 <h4 id="8-鼠标按键自定义">8. 鼠标按键自定义</h4>
-<h5 id="8-1-X-Mouse-Button-Control"><a href="https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm">8.1 X-Mouse Button Control</a></h5>
+<h5 id="8-1-X-Mouse-Button-Control">8.1<a href="https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm"> X-Mouse Button Control</a></h5>
 <p>推荐指数：★★★</p>
 <p>该软件是一款能帮助我们增强鼠标功能的应用程序，可以用来重新设定鼠标按键的功能。对于不能正常安装鼠标的官方的控制软件情况来说是一种备选解决方案。更加适用于超过3个按键的鼠标。</p>
 <p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
+<h4 id="9-大小写切换屏幕提示">9. 大小写切换屏幕提示</h4>
+<h5 id="9-1-Lenovo-Hotkeys">9.1 <a href="https://apps.microsoft.com/store/detail/lenovo-hotkeys/9PCMMNB260TX">Lenovo Hotkeys</a></h5>
+<p>推荐指数：★★★★</p>
+<p>该软件的一项功能是能够在屏幕上提示大小写切换以及数字键盘的切换，方便在不用看键盘的情况了解目前系统的大小写以及数字键盘的情况。</p>
+<p>本软件通过Microsoft Store安装，但是如果Microsoft Store中因为管理权限不能够安装，可尝试Microsoft Store安装离线安装。</p>
 ]]></content>
       <categories>
         <category>Tools</category>
@@ -178,6 +183,36 @@
         <tag>Tips and Tricks</tag>
         <tag>Software</tag>
         <tag>EXCEL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Install MS store app offline</title>
+    <url>/posts/765e0fc0/</url>
+    <content><![CDATA[<p>我们在安装软件的过程中，可能会遇到因为没有权限从安装包安装软件，只能使用Microsoft Store安装的情况。然而即使是这样，MS Store中有的软件可能继续因为权限的要求，而不能直接安装的情况。为此，可以尝试一下下载MS Store的离线安装包，然后进行安装。<span id="more"></span></p>
+<h3 id="离线安装Microsoft-Store软件">离线安装Microsoft Store软件</h3>
+<h4 id="1-寻找目标Microsoft-Store软件信息">1. 寻找目标Microsoft Store软件信息</h4>
+<p>首先，需要找到软件的信息。通过<a href="https://apps.microsoft.com/store/apps">Microsoft Store网页版</a>进行搜索<font color="\#00BFFF">Lenovo Hotkeys</font>得到了<a href="https://apps.microsoft.com/store/detail/lenovo-hotkeys/9PCMMNB260TX">搜索页面</a>，复制链接地址。<img src="/posts/765e0fc0/undefined/01.png" class width="01"></p>
+<h4 id="2-搜索离线安装包">2. 搜索离线安装包</h4>
+<p>打开离线安装包下载网站：<a href="https://store.rg-adguard.net/%EF%BC%8C%E9%80%89%E6%8B%A9">https://store.rg-adguard.net/，选择</a><font color="\#00BFFF">URL(link)</font>，在网页对应的输入框中粘贴复制的地址，点击✔进行搜索。点击下载<font color="\#00BFFF">LenovoUtility_4.3.20.0_neutral_~_5grkq8ppsgwt4.msixbundle</font></p>
+<img src="/posts/765e0fc0/undefined/02.png" class width="02">
+<h5 id="补充说明：">补充说明：</h5>
+<ul>
+<li>也可以使用软件的其他信息进行安装包的搜索，比如Product ID。</li>
+<li>搜索结果不一定都是目标软件，它只是一个搜索列表，可能其他的软件也被展示出来了。</li>
+<li>选择搜索结果的时候，优先可以选择<em><strong>msixbundle</strong></em>或者<em><strong>appxbundle</strong></em>后缀的，然后需要打开安装包才能确认是否是目标软件。</li>
+</ul>
+<h4 id="3-安装离线安装包">3. 安装离线安装包</h4>
+<p>点击安装，并且启动。确认切换大小写的提示选项处于开启状态即可关闭软件。下一次每次切换<strong>大写键盘锁</strong>及<strong>数字键盘锁</strong>屏幕上都有提示了。</p>
+<img src="/posts/765e0fc0/undefined/03.png" class width="03">
+<img src="/posts/765e0fc0/undefined/04.png" class width="04">
+<img src="/posts/765e0fc0/undefined/05.png" class width="05">
+<img src="/posts/765e0fc0/undefined/06.png" class width="06">]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Software</tag>
+        <tag>win 10</tag>
       </tags>
   </entry>
 </search>
