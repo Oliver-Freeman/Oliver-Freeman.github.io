@@ -44,12 +44,12 @@
   <entry>
     <title>Basic Tools</title>
     <url>/posts/e3c9e207/</url>
-    <content><![CDATA[<p>作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新环境，发现了许多和以前基本上通用的工具，在此记录下来。</p>
+    <content><![CDATA[<p>作为一名SAS Programmer (SP)，平时一些软件以及软件设置能够有效的提高工作的效率。刚好最近换了新电脑，重装了以前常用的工具，在此记录下来。</p>
 <p>环境： Win 10</p>
 <span id="more"></span>
 <h3 id="常用软件推荐">常用软件推荐</h3>
-<h4 id="截图">截图</h4>
-<h5 id="Snipaste"><a href="https://www.snipaste.com/download.html">Snipaste</a></h5>
+<h4 id="1-截图">1. 截图</h4>
+<h5 id="1-1-Snipaste"><a href="https://www.snipaste.com/download.html">1.1 Snipaste</a></h5>
 <p>推荐指数：★★★★★</p>
 <p>软件名全程是<strong>Snip &amp; Paste</strong>，体验比Window 10自带的截图软件体验好，类似QQ那种或者微信聊天窗口中使用的截图工具。优点包括：</p>
 <ul>
@@ -66,8 +66,8 @@
 <p>自定义截图、pin的快捷键</p>
 </li>
 </ul>
-<h4 id="视频播放">视频播放</h4>
-<h5 id="PotPlayer"><a href="https://www.videohelp.com/software?d=PotPlayerPortable64-220914.zip">PotPlayer</a></h5>
+<h4 id="2-视频播放">2. 视频播放</h4>
+<h5 id="2-1-PotPlayer"><a href="https://www.videohelp.com/software?d=PotPlayerPortable64-220914.zip">2.1 PotPlayer</a></h5>
 <p>推荐指数：★★★★★</p>
 <p>超链接中的解压包包含了安装包，可以删除。执行文件位于路径为 <code>PotPlayerPortable64\App\PotPlayer64\PotPlayer64.exe</code></p>
 <p>使用体验比Window 10自带的播放软件体验好。优点包括：</p>
@@ -82,35 +82,35 @@
 <p>和自带默认播放器相比，更加稳定，不会突然闪退。</p>
 </li>
 </ul>
-<h4 id="文本编辑软件">文本编辑软件</h4>
-<h5 id="UltraEdit-付费">UltraEdit (付费)</h5>
+<h4 id="3-文本编辑软件">3. 文本编辑软件</h4>
+<h5 id="3-1-UltraEdit-付费">3.1 UltraEdit (付费)</h5>
 <p>推荐指数：★★★★</p>
 <p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>UltraEdit</strong>。如果没有，那么可以查询教程自行安装。</p>
 <p>优点是文本文件都能打开查看、编辑，用起来顺手。</p>
-<h5 id="Visual-Studio-Code">Visual Studio Code</h5>
+<h5 id="3-2-Visual-Studio-Code">3.2 Visual Studio Code</h5>
 <p>推荐指数：★★★</p>
 <p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>Visual Studio Code</strong>。如果没有，请尝试直接下载<a href="https://code.visualstudio.com/download"><strong>VS Code</strong></a>安装。</p>
-<h4 id="远程登录服务器客户端">远程登录服务器客户端</h4>
-<h5 id="PuTTY">PuTTY</h5>
+<h4 id="4-远程登录服务器客户端">4. 远程登录服务器客户端</h4>
+<h5 id="4-1-PuTTY">4.1 PuTTY</h5>
 <p>推荐指数：★★★★★</p>
 <p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>PuTTY</strong>。如果没有，请尝试直接下载<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"><strong>Putty</strong></a>安装。</p>
-<h4 id="图形化SFTP客户端">图形化SFTP客户端</h4>
-<h5 id="WinSCP">WinSCP</h5>
+<h4 id="5-图形化SFTP客户端">5. 图形化SFTP客户端</h4>
+<h5 id="5-1-WinSCP">5.1 WinSCP</h5>
 <p>推荐指数：★★★★</p>
 <p>它的主要功能是在本地与服务器间安全地复制文件，并且可以直接编辑文件。优点是能和本地一样，在服务器文件夹窗口使用和本地默认程序打开文件，缺点是如果访问了包含有<strong>软link文件</strong>(类似Windows的快捷方式)的文件夹，那么访问速度会大幅下降，类似卡死，需要耐心等待，此时窗口上会提示读取文件进度。总体体验感觉比<strong>FileZilla</strong>好一点。</p>
 <p>请使用快捷键 <code>WIN + S</code> 打开搜索框，输入&quot;Software Center&quot;，搜索<strong>WinSCP</strong>。如果没有，请尝试直接下载<a href="https://winscp.net/eng/download.php"><strong>WinSCP</strong></a>安装。</p>
-<h4 id="SAS数据集查看">SAS数据集查看</h4>
-<h5 id="DsView"><a href="https://www.oview.co.uk/cgi-bin/download.pl?url=dsview/dsview-0.6.zip">DsView</a></h5>
+<h4 id="6-SAS数据集查看">6. SAS数据集查看</h4>
+<h5 id="6-1-DsView"><a href="https://www.oview.co.uk/cgi-bin/download.pl?url=dsview/dsview-0.6.zip">6.1 DsView</a></h5>
 <p>推荐指数：★★★</p>
 <p>打开以<strong>sas7bdat</strong>结尾后缀的文件，和<strong>SAS Universal Viewer</strong>相比，优点是打开速度快，可以执行简单的筛选。缺点也很突出，可能出现闪退。</p>
 <p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
-<h4 id="资源管理器">资源管理器</h4>
-<h5 id="Q-Dir"><a href="https://www.softwareok.com/?Download=Q-Dir&amp;goto=../Download/Q-Dir_Portable.zip">Q-Dir</a></h5>
+<h4 id="7-资源管理器">7. 资源管理器</h4>
+<h5 id="7-1-Q-Dir"><a href="https://www.softwareok.com/?Download=Q-Dir&amp;goto=../Download/Q-Dir_Portable.zip">7.1 Q-Dir</a></h5>
 <p>推荐指数：★★★</p>
 <p>Q-Dir 是一款非常独特的资源管理器， Q-Dir特别适用于频繁在各个目录间跳跃复制粘贴的情况。 因为Q-Dir有4 个窗口。 每个窗口都可以方便的切换目录，以不同颜色区分不同类型的文件，各窗口之间可以方便的拖放操作互相的文件。</p>
 <p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
-<h4 id="鼠标按键自定义">鼠标按键自定义</h4>
-<p><a href="https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm">X-Mouse Button Control</a></p>
+<h4 id="8-鼠标按键自定义">8. 鼠标按键自定义</h4>
+<h5 id="8-1-X-Mouse-Button-Control"><a href="https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm">8.1 X-Mouse Button Control</a></h5>
 <p>推荐指数：★★★</p>
 <p>该软件是一款能帮助我们增强鼠标功能的应用程序，可以用来重新设定鼠标按键的功能。对于不能正常安装鼠标的官方的控制软件情况来说是一种备选解决方案。更加适用于超过3个按键的鼠标。</p>
 <p>本软件无需安装，下载即可使用。<font color="Crimson">绕过了管理员权限</font>。</p>
