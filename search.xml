@@ -16,9 +16,10 @@
 </li>
 <li>
 <p>准备好部署的时候，Best Practice是按照顺序执行执行三组命令。</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy (or hexo server)</span><br></pre></td></tr></table></figure>
-<p>也可以一步到位</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<p>本地部署测试：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo hexo server</span><br></pre></td></tr></table></figure>
+<p>在线仓库部署：</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
 </li>
 <li>
 <p>在使用Typora时，需要留意半角和全角的使用，否则可能Typora的显示和Hexo上显示出来不一定相同。</p>
