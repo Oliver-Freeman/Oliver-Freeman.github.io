@@ -118,7 +118,7 @@
 <h5 id="9-1-Lenovo-Hotkeys">9.1 <a href="https://apps.microsoft.com/store/detail/lenovo-hotkeys/9PCMMNB260TX">Lenovo Hotkeys</a></h5>
 <p>推荐指数：★★★★</p>
 <p>该软件的一项功能是能够在屏幕上提示大小写切换以及数字键盘的切换，方便在不用看键盘的情况了解目前系统的大小写以及数字键盘的情况。</p>
-<p>本软件通过Microsoft Store安装，但是如果Microsoft Store中因为管理权限不能够安装，可尝试Microsoft Store安装离线安装。</p>
+<p>本软件通过Microsoft Store安装，但是如果Microsoft Store中因为管理权限不能够安装，可尝试Microsoft Store安装离线安装。离线安装见本站<a href="https://t2l-domain.top/posts/765e0fc0/#more"><em><strong>Install MS store app offline</strong></em></a>。</p>
 ]]></content>
       <categories>
         <category>Tools</category>
@@ -191,10 +191,10 @@
     <content><![CDATA[<p>我们在安装软件的过程中，可能会遇到因为没有权限从安装包安装软件，只能使用Microsoft Store安装的情况。然而即使是这样，MS Store中有的软件可能继续因为权限的要求，而不能直接安装的情况。为此，可以尝试一下下载MS Store的离线安装包，然后进行安装。<span id="more"></span></p>
 <h3 id="离线安装Microsoft-Store软件">离线安装Microsoft Store软件</h3>
 <h4 id="1-寻找目标Microsoft-Store软件信息">1. 寻找目标Microsoft Store软件信息</h4>
-<p>首先，需要找到软件的信息。通过<a href="https://apps.microsoft.com/store/apps">Microsoft Store网页版</a>进行搜索<font color="\#00BFFF">Lenovo Hotkeys</font>得到了<a href="https://apps.microsoft.com/store/detail/lenovo-hotkeys/9PCMMNB260TX">搜索页面</a>，复制链接地址。<img src="/posts/765e0fc0/undefined/01.png" class width="01"></p>
+<p>首先，需要找到软件的信息。通过<a href="https://apps.microsoft.com/store/apps">Microsoft Store网页版</a>进行搜索<font color="\#00BFFF">Lenovo Hotkeys</font>得到了<a href="https://apps.microsoft.com/store/detail/lenovo-hotkeys/9PCMMNB260TX">搜索页面</a>，复制链接地址。<img src="/posts/765e0fc0/01.png"></p>
 <h4 id="2-搜索离线安装包">2. 搜索离线安装包</h4>
-<p>打开离线安装包下载网站：<a href="https://store.rg-adguard.net/%EF%BC%8C%E9%80%89%E6%8B%A9">https://store.rg-adguard.net/，选择</a><font color="\#00BFFF">URL(link)</font>，在网页对应的输入框中粘贴复制的地址，点击✔进行搜索。点击下载<font color="\#00BFFF">LenovoUtility_4.3.20.0_neutral_~_5grkq8ppsgwt4.msixbundle</font></p>
-<img src="/posts/765e0fc0/undefined/02.png" class width="02">
+<p>打开离线安装包下载网站：<a href="https://store.rg-adguard.net/">https://store.rg-adguard.net/</a>，选择<font color="\#00BFFF">URL(link)</font>，在网页对应的输入框中粘贴复制的地址，点击✔进行搜索。点击下载<font color="\#00BFFF">LenovoUtility_4.3.20.0_neutral_~_5grkq8ppsgwt4.msixbundle</font></p>
+<img src="/posts/765e0fc0/02.png">
 <h5 id="补充说明：">补充说明：</h5>
 <ul>
 <li>也可以使用软件的其他信息进行安装包的搜索，比如Product ID。</li>
@@ -203,10 +203,10 @@
 </ul>
 <h4 id="3-安装离线安装包">3. 安装离线安装包</h4>
 <p>点击安装，并且启动。确认切换大小写的提示选项处于开启状态即可关闭软件。下一次每次切换<strong>大写键盘锁</strong>及<strong>数字键盘锁</strong>屏幕上都有提示了。</p>
-<img src="/posts/765e0fc0/undefined/03.png" class width="03">
-<img src="/posts/765e0fc0/undefined/04.png" class width="04">
-<img src="/posts/765e0fc0/undefined/05.png" class width="05">
-<img src="/posts/765e0fc0/undefined/06.png" class width="06">]]></content>
+<img src="/posts/765e0fc0/03.png">
+<img src="/posts/765e0fc0/04.png">
+<img src="/posts/765e0fc0/05.png">
+<img src="/posts/765e0fc0/06.png">]]></content>
       <categories>
         <category>Tools</category>
       </categories>
