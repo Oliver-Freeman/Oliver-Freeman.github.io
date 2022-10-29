@@ -170,7 +170,7 @@
 <li>桌面上新建一个EXCEL文件，点击右键查看发送到是否有EXCEL图标的ReadOnly，发送到ReadOnly后查看最上面的状态栏是否真实显示文件为只读状态。<br>
 <img src="/posts/928b8ca0/2_06.png" alt><img src="/posts/928b8ca0/07.png" alt></li>
 </ol>
-<h5 id="Ref：">Ref：</h5>
+<h5 id="References">References</h5>
 <ol>
 <li><a href="https://support.microsoft.com/zh-cn/office/%E9%80%82%E7%94%A8%E4%BA%8E%E4%BA%A7%E5%93%81-microsoft-office%E5%BC%80%E5%85%B3-079164cd-4ef5-4178-b235-441737deb3a6">适用于产品/Microsoft Office开关</a></li>
 </ol>
@@ -181,8 +181,8 @@
       </categories>
       <tags>
         <tag>Tips and Tricks</tag>
-        <tag>Software</tag>
         <tag>EXCEL</tag>
+        <tag>win10</tag>
       </tags>
   </entry>
   <entry>
@@ -209,10 +209,439 @@
 <img src="/posts/765e0fc0/06.png">]]></content>
       <categories>
         <category>Tools</category>
+        <category>Software</category>
       </categories>
       <tags>
-        <tag>Software</tag>
         <tag>win 10</tag>
+        <tag>MS store</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vim Keys Cheat Sheet</title>
+    <url>/posts/97957902/</url>
+    <content><![CDATA[<p>Vim在平时使用过程中有许多能够提高生产效率的按键，但是数量太多，最常用的可能记得住，许多其他的可以使用本文的速查表。</p>
+<span id="more"></span>
+<h3 id="Vim按键说明">Vim按键说明</h3>
+<h4 id="Part-1：一般命令模式可用的按键说明，光标移动、复制粘贴、查找替换等：">Part 1：一般命令模式可用的按键说明，光标移动、复制粘贴、查找替换等：</h4>
+<h5 id="1-1-移动光标的方法">1.1 移动光标的方法</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>h或者向左箭头键←</td>
+<td>光标向左移动一个字符</td>
+</tr>
+<tr>
+<td>j或者向下箭头键↓</td>
+<td>光标向下移动一个字符</td>
+</tr>
+<tr>
+<td>k或者向上箭头键↑</td>
+<td>光标向上移动一个字符</td>
+</tr>
+<tr>
+<td>l或者向右箭头键→</td>
+<td>光标向右移动一个字符</td>
+</tr>
+<tr>
+<td><strong>Tips：</strong></td>
+<td>如果想要进行多次移动的话，例如向下移动30行，可以使用<code>30j</code>或者<code>30↓</code>的组合键，按下即可操作。</td>
+</tr>
+<tr>
+<td>[Ctrl]+f</td>
+<td>屏幕【向下】移动一页，相当于[Page Down]键</td>
+</tr>
+<tr>
+<td>[Ctrl]+b</td>
+<td>屏幕【向上】移动一页，相当于[Page Up]键</td>
+</tr>
+<tr>
+<td>[Ctrl]+d</td>
+<td>屏幕【向下】移动半页</td>
+</tr>
+<tr>
+<td>[Ctrl]+u</td>
+<td>屏幕【向上】移动半页</td>
+</tr>
+<tr>
+<td>+</td>
+<td>光标移动到非空格符的下一行</td>
+</tr>
+<tr>
+<td>-</td>
+<td>光标移动到非空格符的上一行</td>
+</tr>
+<tr>
+<td>n&lt;space&gt;</td>
+<td>字母n代表【数字】，按下数字后再按空格键，光标会向右移动这一行的n个字符，例如20&lt;space&gt;则光标会向后面移动20个字符距离</td>
+</tr>
+<tr>
+<td>0或功能键[Home]</td>
+<td>移动到这一行的最前面字符处</td>
+</tr>
+<tr>
+<td>$或功能键[End]</td>
+<td>移动到这一行的最后面字符处</td>
+</tr>
+<tr>
+<td>H</td>
+<td>光标移动到这个屏幕的最上方那一行的第一个字符</td>
+</tr>
+<tr>
+<td>M</td>
+<td>光标移动到这个屏幕的中央那一行的第一个字符</td>
+</tr>
+<tr>
+<td>L</td>
+<td>光标移动到这个屏幕的最下方那一行的第一个字符</td>
+</tr>
+<tr>
+<td>G</td>
+<td>移动到这个文件的最后一行</td>
+</tr>
+<tr>
+<td>nG</td>
+<td>n为数字，移动这个文件的n行，例如20G则会移动到这个文件的第20行</td>
+</tr>
+<tr>
+<td>gg</td>
+<td>移动这个文件的第一行，相当于1G</td>
+</tr>
+<tr>
+<td>n&lt;Enter&gt;</td>
+<td>n为数字，光标向下移动n行</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1-2-查找和替换">1.2 查找和替换</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/word</td>
+<td>向光标之下寻找一个名称为word的字符串。</td>
+</tr>
+<tr>
+<td>?word</td>
+<td>向光标之上寻找一个名为word的字符串</td>
+</tr>
+<tr>
+<td>n</td>
+<td>这个是小写n英文键，代表【重复前一个查找的操作】。通常和本小节中的第一行和第二行联用。</td>
+</tr>
+<tr>
+<td>N</td>
+<td>这个是小写N英文键，代表【重复前一个查找的操作，但是方向（向上或者向下）相反】。通常和本小节中的第一行和第二行联用。</td>
+</tr>
+<tr>
+<td><strong>Tips:</strong></td>
+<td>使用/word配合n及N是非常有帮助的，可以让你重复的找到一些你查找的关键词。</td>
+</tr>
+<tr>
+<td>:n1,n2s/word1/word2/g</td>
+<td>n1，n2为数字，在第n1与n2行之间寻找word1这个字符串，并将该字符串替换为word2。</td>
+</tr>
+<tr>
+<td>:1,$s/word1/word2/g</td>
+<td>从第一行到最后一样寻找word1字符串，并将该字符串替换为word2</td>
+</tr>
+<tr>
+<td>:1,$s/word1/word2/gc</td>
+<td>从第一行到最后一样寻找word1字符串，并将该字符串替换为word2，并通知用户手动确认。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1-3-删除、复制与粘贴">1.3 删除、复制与粘贴</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x与X</td>
+<td>在一行当中，x为向后删除一个字符，相当于[del]键；X为向前删除一个字符，相当于[Backspace]键</td>
+</tr>
+<tr>
+<td>nx</td>
+<td>n为数字，连续向后删除n个字符。</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>删除（剪切）光标所在的那一行</td>
+</tr>
+<tr>
+<td>ndd</td>
+<td>n为数字，删除（剪切）光标所在的向下n行。</td>
+</tr>
+<tr>
+<td>d1G</td>
+<td>删除（剪切）光标所在到第一行的所有数据</td>
+</tr>
+<tr>
+<td>dG</td>
+<td>删除（剪切）光标所在到最后一行的所有数据</td>
+</tr>
+<tr>
+<td>d$</td>
+<td>删除（剪切）光标所在到该行最后一个字符</td>
+</tr>
+<tr>
+<td>d0</td>
+<td>那个是数字的0，删除（剪切）光标所在到该行的最前面的一个字符</td>
+</tr>
+<tr>
+<td>yy</td>
+<td>复制光标所在的那一行</td>
+</tr>
+<tr>
+<td>nyy</td>
+<td>n为数字，复制光标所在的向下n行。</td>
+</tr>
+<tr>
+<td>y1G</td>
+<td>复制光标所在行到第一行的所有数据</td>
+</tr>
+<tr>
+<td>yG</td>
+<td>复制光标所在行到最后一行的所有数据</td>
+</tr>
+<tr>
+<td>y0</td>
+<td>复制光标所在的那个字符到该行行首的所有数据</td>
+</tr>
+<tr>
+<td>y$</td>
+<td>复制光标所在的那个字符到该行行尾的所有数据</td>
+</tr>
+<tr>
+<td>p与P</td>
+<td>p为将已复制的数据在光标下一行粘贴，P则粘贴在光标上一行。</td>
+</tr>
+<tr>
+<td>J</td>
+<td>将光标所在行与下一行的数据结合成同一行</td>
+</tr>
+<tr>
+<td>c</td>
+<td>重复删除多个数据，例如向下删除10行，[10cj]</td>
+</tr>
+<tr>
+<td>u</td>
+<td>恢复前一个操作</td>
+</tr>
+<tr>
+<td>[Ctrl]+r</td>
+<td>重做上一个操作</td>
+</tr>
+<tr>
+<td><strong>Tips:</strong></td>
+<td>u和[Ctrl]+r是很常用的命令，一个是恢复，一个是重做一次。</td>
+</tr>
+<tr>
+<td>.</td>
+<td>这就是小数点，意思是重复前一个操作的意思。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Part-2：-一般命令模式切换到编辑模式的可用的按键说明">Part 2： 一般命令模式切换到编辑模式的可用的按键说明</h4>
+<h5 id="2-1-进入插入或替换的编辑模式">2.1 进入插入或替换的编辑模式</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i与I</td>
+<td>进入插入模式【Insert Mode】：<br>i为【从目前光标所在处插入】；I为【在目前光标所在行的第一个非空格字符处开始插入】</td>
+</tr>
+<tr>
+<td>a与A</td>
+<td>进入插入模式【Insert Mode】：<br>a为【从目前光标所在的下一个字符处开始插入】， A为【从光标所在行的最后一个字符处开始插入】</td>
+</tr>
+<tr>
+<td>o与O</td>
+<td>进入插入模式【Insert Mode】：<br>o为【在目前光标所在的下一行处插入新的一行】；O为【在目前光标所在处的上一行插入新的一行】</td>
+</tr>
+<tr>
+<td>r与R</td>
+<td>进入插入替换【Insert Mode】：<br>r只会替换光标所在的那一个字符一次；R会一直替换光标所在的文字，直到按下[ESC]为止</td>
+</tr>
+<tr>
+<td>[ESC]</td>
+<td>退出编辑模式，回到一般命令模式中</td>
+</tr>
+<tr>
+<td><strong>Tips:</strong></td>
+<td>上面这些按键中，在vi界面的左下角处会出现【–INSERT–】或【–REPLACE–】的字样。输入字符时，我们一定需要先确认当前模式状态。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Part-3-一般命令模式切换到命令行模式的按键说明">Part 3: 一般命令模式切换到命令行模式的按键说明</h4>
+<h5 id="3-1-命令行模式的保存、退出等命令">3.1 命令行模式的保存、退出等命令</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:w</td>
+<td>将编辑的数据写入到硬盘中</td>
+</tr>
+<tr>
+<td>:w!</td>
+<td>若文件属性为【只读】时，强制写入该文件。不过，到底能不能写入，还是和你对该文件的文件权限有关</td>
+</tr>
+<tr>
+<td>:q</td>
+<td>退出vi</td>
+</tr>
+<tr>
+<td>:q!</td>
+<td>若曾修改过文件，又不想保存，使用<code>!</code>为强制退出不保存</td>
+</tr>
+<tr>
+<td>:wq</td>
+<td>保存后退出，若为<code>:wq!</code>则为强制保存后退出</td>
+</tr>
+<tr>
+<td>ZZ</td>
+<td>两个大写的字母Z，若文件没有修改，则不保存退出；若文件已经被修改，则保存后退出</td>
+</tr>
+<tr>
+<td>:w [filename]</td>
+<td>将编辑的数据保存成另一个文件</td>
+</tr>
+<tr>
+<td>:r [filename]</td>
+<td>在编辑的数据中，读入另一个文件的数据，即将【filename】这个文件内容追加到光标所在行后面</td>
+</tr>
+<tr>
+<td>:n1,n2 w [filename]</td>
+<td>将n1到n2的内容保存为filename这个文件</td>
+</tr>
+<tr>
+<td>:! command</td>
+<td>暂时退出vi到命令行模式下执行command的显示结果。例如，<code>:! ls /home</code>即可在vi当中查看/home下面<code>ls</code>删除的文件信息</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Part-4-可视区块">Part 4: 可视区块</h4>
+<p>4.1 可视区块的按键意义</p>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v</td>
+<td>字符选择，会将光标经过的区域反白选择</td>
+</tr>
+<tr>
+<td>V</td>
+<td>行选择，会将光标经过的行反白选择</td>
+</tr>
+<tr>
+<td>[Ctrl]+v</td>
+<td>可视区块，可以用矩形的方式选择数据</td>
+</tr>
+<tr>
+<td>y</td>
+<td>将反白的地方复制起来</td>
+</tr>
+<tr>
+<td>d</td>
+<td>将反白的地方删除掉</td>
+</tr>
+<tr>
+<td>p</td>
+<td>将刚刚复制的区块，在光标所在处粘贴</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Part-5-多文件编辑">Part 5: 多文件编辑</h4>
+<h5 id="5-1-多文件编辑的按键">5.1 多文件编辑的按键</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:n</td>
+<td>编辑下一个文件</td>
+</tr>
+<tr>
+<td>:N</td>
+<td>编辑上一个文件</td>
+</tr>
+<tr>
+<td>:files</td>
+<td>列出目前这个vim开启的所有文件</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Part-6：-多窗口功能">Part 6： 多窗口功能</h4>
+<h5 id="6-1-多窗口情况下的按键功能">6.1 多窗口情况下的按键功能</h5>
+<table>
+<thead>
+<tr>
+<th><div style="width:290px"> 按键</div></th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:sp [filename]</td>
+<td>打开一个新窗口，如果有加<code>filename</code>，表示在新窗口创建以恶新文件，否则表示两个窗口为同一个文件内容（同步显示）</td>
+</tr>
+<tr>
+<td>[Ctrl]+w+ j<br>[Ctrl]+w+ ↓</td>
+<td>按键的按法是：先按下[Ctrl]不放，再按下w后放开所有的按键，之后再按下j或者↓，则光标可移动到下方的窗口</td>
+</tr>
+<tr>
+<td>[Ctrl]+w+ k<br>[Ctrl]+w+ ↑</td>
+<td>同上一行所述，只不过是移动到上面的窗口</td>
+</tr>
+<tr>
+<td>[Ctrl]+w+ q</td>
+<td>其实是<code>:q</code>结束退出，举例来说，如果我想要结束下方的窗口，那么利用[Ctrl]+w+ ↓移动到下方窗口后，输入<code>:q</code>即可退出，也可以按下[Ctrl]+w+q，此外也可以是输入<code>:close</code>关闭所有的窗口</td>
+</tr>
+</tbody>
+</table>
+<h4 id="References">References</h4>
+<p>1.《鸟哥的Linux私房菜》</p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+        <category>Software</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Vim</tag>
       </tags>
   </entry>
 </search>
